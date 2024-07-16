@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shorcut icon" href="./img/icons8-tareas-32.png"/>
+    <title>Sticky</title>
+    <link rel="stylesheet" href="./main.css"/>
+  </head>
+  <body>
+    <h1>Lista de Tareas</h1>
+    <div class="task-input">
+      <input type="text" id="taskName" placeholder="Nombre de la tarea" />
+      <button id="addTaskButton">Agregar Tarea</button>
+    </div>
+    <div class="task-columns">
+      <div class="task-column" id="pending">
+        <h2>Pendiente</h2>
+      </div>
+      <div class="task-column" id="inProgress">
+        <h2>En Proceso</h2>
+      </div>
+      <div class="task-column" id="completed">
+        <h2>Finalizada</h2>
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
